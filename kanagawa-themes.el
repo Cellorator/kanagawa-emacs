@@ -980,7 +980,7 @@ names to which it refers are bound."
       (diredfl-ignored-file-name (:foreground ,cyan))
       (diredfl-link-priv (:foreground ,syn-constant))
       (diredfl-no-priv (:foreground ,fg))
-      (diredfl-number (:foreground ,bg-search))
+      (diredfl-number (:foreground ,syn-constant))
       (diredfl-other-priv (:foreground ,syn-identifier))
       (diredfl-rare-priv (:foreground ,magenta))
       (diredfl-read-priv (:foreground ,cyan))
