@@ -605,18 +605,18 @@ names to which it refers are bound."
       (org-hide (:inherit org-indent))
       (org-date (:foreground ,bg-search))
       (org-ellipsis (:foreground ,bg-search :weight bold))
-      (org-level-1 (:foreground ,extend-color-1
+      (org-level-1 (:foreground ,magenta
                                 :height ,(if kanagawa-themes-org-height 1.3 1.0)
                                 :weight ,(if kanagawa-themes-org-bold 'bold 'normal)))
-      (org-level-2 (:foreground ,syn-punct
+      (org-level-2 (:foreground ,blue
                                 :height ,(if kanagawa-themes-org-height 1.2 1.0)
                                 :weight ,(if kanagawa-themes-org-bold 'bold 'normal)))
-      (org-level-3 (:foreground ,yellow :height ,(if kanagawa-themes-org-height 1.1 1.0)))
-      (org-level-4 (:foreground ,fg))
-      (org-level-5 (:foreground ,fg))
-      (org-level-6 (:foreground ,bright-yellow))
-      (org-level-7 (:foreground ,extend-color-1))
-      (org-level-8 (:foreground ,bright-green))
+      (org-level-3 (:foreground ,bright-cyan :height ,(if kanagawa-themes-org-height 1.1 1.0)))
+      (org-level-4 (:foreground ,bright-green))
+      (org-level-5 (:foreground ,bright-yellow))
+      (org-level-6 (:foreground ,extend-color-1))  ; orange
+      (org-level-7 (:foreground ,red))
+      (org-level-8 (:foreground ,bright-magenta))
       (org-priority (:foreground ,extend-color-2
                                  :weight ,(if kanagawa-themes-org-priority-bold 'bold 'normal)))
 ;;;;;; show-paren
