@@ -499,7 +499,7 @@ names to which it refers are bound."
       (menu (:foreground ,fg :background ,bg))
       (region (:background ,bg-visual))
       (separator-line (:background ,bg-m3))
-      (shadow (:inherit separator-line))
+      (shadow (:foreground ,nontext))
       (window-border (:background ,bg))
       (window-divider (:foreground ,bg-m1))
       (vertical-border (:foreground ,bg-m1))
